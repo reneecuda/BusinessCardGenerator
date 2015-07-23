@@ -1,0 +1,141 @@
+/*
+Title: Business Card Generator
+Author: Renee Cuda
+Date: 23/07/2015
+Description: Angular application to generate a business card based on user input
+*/
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper
+{
+    padding: 20px;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#formArea
+{
+    border: 2px solid #BBBBBB;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card
+{
+    border: 1px solid #287cc2;
+    font-weight: lighter;
+    width: 480px;
+    box-shadow: 0px 0px 10px rgb(17, 17, 17);
+    height: 240px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cardArea
+{
+    display: none;
+    background-color: #BBBBBB;
+    border: 2px solid #BBBBBB;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.btn
+{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.card img
+{
+    float: left;
+    padding: 30px 0;
+    max-width: 200px;
+}
+
+.card h1
+{
+    font-size: 30px;
+    margin: 15px 0 0 0;
+}
+
+.card h2
+{
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+
+.card p
+{
+    font-size: 15px;
+    margin: 5px 0 0 0;
+}
+
+.details
+{
+    float: left;
+}
+
+.details
+{
+    padding-left: 20px;
+}
+
+@media (max-width: 620px)
+{
+
+    body
+    {
+        font-size: 12px;
+    }
+    
+    .card
+    {
+        width: 100%;
+    }
+    
+    .card h1
+    {
+        font-size: 24px;
+        margin: 15px 0 0 0;
+    }
+    
+    .card h2
+    {
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+    
+    .card p
+    {
+        font-size: 10px;
+        margin: 5px 0 0 0;
+    }
+    
+    .card img
+    {
+        max-width:100px;
+    }
+}
+    
+@media (max-width:450px)
+{
+    .card img
+    {
+        display:none;
+    }
+}
+
